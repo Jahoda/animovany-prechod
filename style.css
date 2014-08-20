@@ -1,0 +1,47 @@
+body {
+    font-family: "Segoe UI";
+    background: #0D6AB7;
+    color: #fff;
+}
+
+a {
+    color: #8CE8EC;
+    font-weight: bold;
+}
+
+.druha {
+    background: #DA3F94;
+}
+
+.dalsi {
+    background: #8ECCF0;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em;
+    color: #000;
+    transition: .5s background;
+}
+
+.dalsi:hover {background: #fff;}
+
+@keyframes zmizet {
+    from {
+        opacity: 1;
+        margin-top: 0;
+    }
+    to {
+        opacity: 0;
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes zmizet {
+    from {
+        opacity: 1;
+        margin-top: 0;
+    }
+    to {
+        opacity: 0;
+        margin-top: -100%;
+    }
+}
